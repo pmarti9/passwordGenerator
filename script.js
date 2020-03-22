@@ -27,8 +27,12 @@ const randomLetters = letters[Math.floor(Math.random()*letters.length)];
 let pwlength = prompt("How long do you want your password to be");
 
 
-console.log(pwLength);
+
+
 //GENERATE PASSWORD
 function generatePassword (specialCharacters, numbers, letters, ucLetters, pwlength) {
-
+if(hasLetters)
+    confirm(hasUCLetters);
 };
+
+generatePassword();
